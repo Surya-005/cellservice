@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karuna</title>
+    <link rel="stylesheet" href="./offer.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- navigation bar -->
+  <nav>
+    <div id="logo"><a href="../index.html" name="home">KARUMILA</a></div>
+    <ul>
+        <li><a href="../2.aboutus/about.html">About us</a></li>
+        <li><a href="../4.offer/offers.html">Offers</a></li>
+        <li><a href="../3.contactus/contact.html">Contact us</a></li>
+    </ul> 
+    <div class="bar">
+        <div class="menubar"></div>   
+        <div class="menubar"></div>   
+        <div class="menubar"></div>   
+    </div>
+</nav> 
+<div class="resnav">
+    <ul>
+        <li><a href="../2.aboutus/about.html">About us</a></li>
+        <li><a href="./offers.html">Offers</a></li>
+        <li><a href="../3.contactus/contact.html">Contact us</a></li>
+    </ul> 
+</div>
+        <!-- contact banner   -->
+        <div class="banner_wrapper" style=>
+            <div class="banner" >
+                <div class="quotes">
+                    <h1>discount<span>?</span></h1>
+                    <h1>buy 1 get 2<span>?</span></h1>
+                    <h1>more benefit<span>?</span></h1>
+                    <div><h2>offers</h2></div>
+                </div>
+                
+            </div>
+        </div>  
+    <h3 class="side">TODAY OFFER</h3>
+    <marquee behavior="scroll" direction="left" scrollamount="10"  >HURRY UP!!! OFFER IS AVAILABLE TODAY ONLY</marquee>
+    <div class="offers">
+        <div class="offe1"><img id="off"  src="off1.jpg"></div>
+        <div class="offe2"><img id="off"  src="off2.jpg"></div>
+        <div class="offe3"><img id="off"  src="off3.jpg"></div>   
+    </div>
+    <h3 class="side">OFFER DESCRIPTION</h3>
+    <div class="odes">
+        <p>TODAY EXCLUSIVE OFFERS:<br>
+        OFFER 1: the high range headphones and earpeds are available 20 percent discount today<br>
+        OFFER 2: if you change your temper glass you get additionally brand new mobile case.<br>
+        OFFER 3: all type apple devices 10 percent offer for service. 
+        </p>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="foot1stlayer">
+            <div class="foot1 foot">
+                <div id="logo"><a href="../index.html" name="home">KARUMILA</a></div>
+                <address>perumal koil street,<br>
+                    Uthiramerur,<br>
+                    Kanchipuram district.
+                </address>
+            </div>
+            <div class="foot2 foot">
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">sell phone</a></li>
+                    <li><a href="#">Repaire phone</a></li>
+                </ul>
+            </div>
+            <div class="foot3 foot">
+                <ul>
+                    <li><a href="#">company</a></li>
+                    <li><a href="../2.aboutus/about.html">about us</a></li>
+                </ul>
+            </div>
+            <div class="foot4 foot">
+                <ul>
+                    <li><a href="#">Sell Devices</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Laptop</a></li>
+                    <li><a href="#">Pendrive</a></li>
+                    <li><a href="#">SD card</a></li>
+                </ul>
+            </div>
+            <div class="foot5 foot">
+                <ul>
+                    <li><a href="#">Contents</a></li>
+                    <li><a href="../2.aboutus/about.html">about us</a></li>
+                    <li><a href="../3.contactus/contact.html">Contact us</a></li>
+                    <li><a href="./offers.html">Offers</a></li>
+            </ul>
+            </div>
+            <div class="foot6 foot">
+                <ul>
+                    <li><a href="#">help & support</a></li>
+                    <li><a href="../3.contactus/contact.html">Contact us</a></li>
+                    <li><a href="#">Warrenty policy</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+        <form>
+            <label for="signup">Register for free</label>
+            <input onclick="clicked(event)" type="submit" value="sign up">
+        </form>
+        <h3 class="follow_karumila">FOLLOW KARUMILA</h3>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="copyright">
+            <p>upto @2035 copyright reserved for karumila.com</p>
+        </div>
+    </div> 
+<script>
+    let bar=document.querySelector('.bar')
+    let resnav=document.querySelector('.resnav ul')
+    
+    
+    bar.addEventListener('click',()=>{
+    resnav.classList.toggle('show')
+    })
+    function clicked(event)
+    {event.preventDefault()
+    }
+    </script>
+</body>
+</html>

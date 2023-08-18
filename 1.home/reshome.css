@@ -1,0 +1,214 @@
+@media screen and (max-width:1200px) {
+    .pro h2{
+        font-size: 1.2em !important;
+        text-align: center;
+    }
+    .pro p{
+        font-size:1em !important ;
+    }
+    .process2 {
+        padding: 5% 0px !important;
+        text-align: center !important;
+    }
+
+    .process {
+        padding: 2em !important;
+    }
+.numberone h2{
+    font-size: 1.5em !important;
+}
+.numberone p{
+    font-size: 1.2em !important;
+}
+    .models {
+        padding: 2.5em 1em !important;
+    }
+
+    .models img {
+        width: 50% !important;
+    }
+.uss{
+    margin-bottom: 1em;
+}
+    .whyus {
+        padding: 1em !important;
+    }
+    .uss h3{
+    font-size: 1.5em !important;
+}
+.uss p{
+    font-size: 1em !important;
+}
+.why2{
+    height: 15rem !important;
+}
+    .whyus {
+        justify-content: start !important;
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    @keyframes process1 {
+        from{left:1000px;}
+        to{left:0px;}   
+        }
+        @keyframes process2 {
+        from{right:1000px;}
+        to{right:0px;}   
+        }
+    .process {
+        padding: 1em !important;
+    }
+    .pro {
+        padding: 2% 0.5% !important;
+    }
+    .numberone h2{
+    font-size: 1.2em !important;
+}.numberone p{
+    font-size: 1em !important;
+    text-align: justify !important;
+    text-indent: 5em !important;
+    padding: 0em 2em !important;
+}
+
+    .us2 {
+        align-self: flex-end !important;
+    }
+}
+@media screen and (max-width:900px) {
+ .process{
+    flex-direction: column;
+ }
+ .pro i{
+    font-size: 3em !important;
+ }
+ .pro{
+    justify-content: center;
+    align-items: center;
+    padding: 1em 15em !important;
+ }
+ .pro p{
+    text-align: center !important;
+ }
+ .models{
+    padding:2em !important;
+    height: 10rem !important;
+ }
+ .whyus{
+    justify-content: space-around !important;
+ }
+ .why2{
+    display: none;
+ }
+   .uss h3{
+    font-size: 1em !important;
+}
+.uss p{
+font-size: 1em !important;
+   }
+ .uss h3,.uss p{
+    text-align: center !important;
+}
+.us1,.us2,.us3,.us4,.us5,.us6{
+    align-self: center !important;
+    animation: none !important;
+}
+}
+@media screen and (max-width:750px){
+    @keyframes process1 {
+        from{left:800px;}
+        to{left:0px;}   
+        }
+        @keyframes process2 {
+        from{right:800px;}
+        to{right:0px;}   
+        }
+    .pro{
+        padding:1em 8em !important;
+    }
+     .numberone p{
+    font-size: 1em !important;
+}
+.numberone h2{
+    font-size: 1em !important;
+}
+}
+@media screen and (max-width:600px){
+    .pro{
+        padding:0.6em 6em !important;
+    }
+    .numberone h2{
+        font-size: 1.3em !important;
+    }
+ .models{
+    padding:2em !important;
+    height: 14rem !important;
+ }
+}
+@media screen and (max-width:550px  ) {
+     .pro{
+        padding:0.6em 4em !important;
+    }
+    .numberone h2{
+        align-self: flex-start;
+    }
+    .numberone p{
+        word-spacing: 0em !important;
+        padding: 0em 0.5em !important;
+    }
+    .karuna_photo{
+        border-radius: 0%;
+    }
+}
+@media screen and (max-width:450px) {
+    .pro{
+        padding:0.6em 2em !important;
+    }
+    .pro h2{
+        font-size: 1.2em !important;
+    }
+    .pro i{
+        font-size: 2em !important;
+    }
+    .numberone h2{
+        font-size: 1.2em !important;
+    }
+    .numberone p{
+      font-size: 1em !important;
+    }
+     .models{
+    padding:1.2em 0.2em !important;
+    height: 10rem !important;
+ }
+     .uss h3{
+    font-size: 1em !important;
+}
+.uss p{
+    font-size: 0.7em !important;
+}
+}
+@media screen  and (max-width:360px){
+    .pro{
+        padding:0.6em 0.5em !important;
+    }
+}
+@media screen and (max-width:300px){
+.numberone h2{
+        font-size: 0.9em !important;
+        text-transform: uppercase;
+    }
+     .numberone p{
+      font-size: 0.8em !important;
+    }
+      .models{
+    padding:1.2em 0.2em !important;
+    height: 8rem !important;
+ }
+       .uss h3{
+    font-size: 0.8em !important;
+}
+.uss p{
+    font-size: 0.6em !important;
+}
+}

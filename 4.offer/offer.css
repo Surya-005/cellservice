@@ -1,0 +1,106 @@
+.banner_wrapper{
+    background-image: url('./32942521_436360449489.jpg');
+}
+MARQUEE{
+    color: red;
+}
+.offers{
+    display:flex;  
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    justify-content: space-evenly;
+    overflow: hidden; 
+}
+#off{
+    height:30vh;
+    width: 40vb;
+    border: 10px solid rgb(252, 19, 3);
+    border-radius: 20px;
+    box-shadow: 10px 20px 20px rgb(128, 122, 122);
+    animation-name: border;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin:0.5em;
+}
+.offe1{
+    animation-name: offer1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    position:relative;
+}
+.offe3{
+    animation-name: offer3;
+    animation-duration: 2s;   
+    position: relative;
+    
+ }
+ 
+@keyframes offer1 {
+    from{left:2000px;}
+    to{left:0px;}    
+} 
+@keyframes offer3{
+    from{right:2000px; }
+    to{right:0px;}   
+} 
+@keyframes border {
+    0%{ border: 10px solid  pink;}
+    10%{ border: 10px solid rgb(226, 9, 45);}
+    20%{ border: 10px solid rgb(237, 245, 8);}
+    30%{ border: 10px solid rgb(67, 17, 192);}
+    40%{ border: 10px solid rgb(17, 238, 9);}
+    50%{ border: 10px solid rgb(254, 14, 162);}
+    60%{ border: 10px solid rgb(225, 225, 19);}
+    70%{ border: 10px solid rgb(222, 144, 10);}
+    80%{ border: 10px solid rgb(198, 8, 8);}
+    90%{ border: 10px solid rgb(245, 137, 5);}
+    100%{ border: 10px solid rgb(34, 241, 179);}
+    }
+
+.odes{
+    margin:10px 10px 30px 10px;
+}
+.odes p{
+    padding: 20px 40px 20px 40px;
+    font-size: 1.3em;
+     /* background-color: #f7a0c35c;  */
+    animation-name: des;
+    animation-duration: 5s;
+    position: relative;
+    left: 0px;
+    animation-iteration-count: 1;
+    margin: 0px 30px ;
+}
+@keyframes des{
+
+         from{ left:-2000px;} 
+         to{left:0px;}
+}
+
+.intro p{
+    text-indent: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding:20px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+.intro{
+    background-color: #282f366a;
+  
+}
+@media screen and (max-width:500px) {
+.odes{margin: 0px;}
+.odes p{margin: 0px auto;
+}
+}
+@media screen and (max-width:350px) {
+    .odes p
+    {
+        padding:10px;
+        font-size: 1em;
+    }
+    }
